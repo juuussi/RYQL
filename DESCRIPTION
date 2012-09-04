@@ -1,0 +1,15 @@
+Package: RYQL
+Type: Package
+Title: Functions for Yahoo Query Language (YQL) based queries
+Version: 0.1
+Date: 2012-09-03
+Authors@R: c(person(given="Jussi", family="Paananen", role = c("aut", "cre",
+    "cph"), email = "jussi.paananen@uef.fi"))
+Description: This package contains functions for performing Yahoo Query
+    Language (YQL) based queries on webservices.
+License: GPL-2
+Depends:
+    R (>= 2.15.0),
+    rjson
+Collate:
+    'RYQL.R'

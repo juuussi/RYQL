@@ -1,0 +1,42 @@
+Functions for Yahoo Query Language (YQL) based queries
+------------------------------------------------------
+
+This is an R-package for performing Yahoo Query Language (YQL) based queries. The responses for the queries can
+be retrieved as XML, JSON, or as R object lists.
+
+Main functions are:
+
+queryYQL() for performing queries and returning XML or JSON.
+queryYQLtoR() for performing queries and returning R object lists.
+
+Package is currently in an early stage, so things can change rapidly. Comments, bug reports and code contributions
+are welcome!
+
+Installing instructions
+-----------------------
+
+Easiest way to install RYQL is to install it directly from GitHub using devtools package.
+
+1. Install devtools:
+
+install.packages(devtools)
+
+2. Install RYQL:
+
+library(devtools)
+install_github(repo = "RYQL", username = "juuussi")
+
+3. Load and test RYQL
+
+library(RYQL)
+
+Author
+------
+
+This package is authored and maintained by Jussi Paananen (jussi.paananen@uef.fi).
+
+
+License
+-------
+
+This package is licensed under GPL-2 license.
