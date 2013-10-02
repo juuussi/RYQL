@@ -20,6 +20,7 @@
 queryYQL <- function (query, format="json", file, yql.url="http://query.yahooapis.com/v1/public/yql/", env="store://datatables.org/alltableswithkeys", quiet=FALSE) {
   
   # Handle response format, either XML or JSON
+  format <- tolower(format)
   if(!format %in% c("json", "xml")) {
     stop("Invalid method. Should be XML or JSON")
   }
