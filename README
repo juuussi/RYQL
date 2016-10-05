@@ -19,12 +19,12 @@ Easiest way to install RYQL is to install it directly from GitHub using devtools
 
 1. Install devtools:
 
-install.packages(devtools)
+install.packages("devtools")
 
 2. Install RYQL:
 
 library(devtools)
-install_github(repo = "RYQL", username = "juuussi")
+install_github("juuussi/RYQL")
 
 3. Load and test RYQL
 
